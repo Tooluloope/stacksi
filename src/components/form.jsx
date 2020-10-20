@@ -113,17 +113,23 @@ export const Form = () => {
 						name="agree"
 						type="radio"
 						value="Yes"
-						ref={register({ required: true })}
+						ref={register({
+							required: true,
+							validate: value => value !== "Yes" || "Nice try!",
+						})}
 					/>
+
 					<label className="radio">
 						I agree to write Excellent Code{" "}
 						<span className=" font-semibold">Terms and Conditions</span>
 					</label>
 				</div>
+				{errors.agree && errors.agree.message}
+
 				<button
 					disabled={formState.isSubmitting}
 					type="submit"
-					className="w-full text-white text-center text-sm outline-none focus:outline-none"
+					className="w-full flex justify-center items-center text-white text-center text-sm outline-none focus:outline-none"
 				>
 					Continue {isLoading && <SmallLoader />}
 				</button>
