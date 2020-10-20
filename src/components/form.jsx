@@ -54,6 +54,7 @@ export const Form = () => {
 
 		return;
 	};
+	console.log(error);
 	return (
 		<div className="form text-black  ">
 			<p className="font-bold text-xl">Create Account</p>
