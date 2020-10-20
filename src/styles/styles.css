@@ -110,7 +110,7 @@
 .form-group > input {
 	border: none;
 }
-.form-group .text-error {
+.text-error {
 	color: #cc3a00;
 }
 .radio {
