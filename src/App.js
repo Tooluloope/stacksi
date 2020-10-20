@@ -6,8 +6,8 @@ import { Form } from "./components/form";
 function App() {
 	return (
 		<div className="min-h-screen w-screen flex justify-center items-center">
-			<div className="box1 h-screen flex justify-end items-center">
-				<div className="box-gradient flex justify-between items-center">
+			<div className="box1 h-screen sm:flex justify-end items-center hidden ">
+				<div className="box-gradient flex justify-between items-center px-5">
 					<div className="text-white max-w w-full mx-auto">
 						<p className=" text-xl line-big mb-4">
 							Here’s some amazing copy. Doesn’t this copy just make you excited?
@@ -68,8 +68,8 @@ function App() {
 					</div>
 				</div>
 			</div>
-			<div className="box2 h-screen flex justify-start items-center">
-				<div className="box-white flex justify-between items-center">
+			<div className="box2 h-screen flex justify-start items-center w-full">
+				<div className="box-white flex justify-between items-center px-5">
 					<Form />
 				</div>
 			</div>
