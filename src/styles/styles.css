@@ -107,3 +107,19 @@
 .form-group .text-error {
 	color: #cc3a00;
 }
+.radio {
+	font-size: 12px;
+}
+
+.radio span {
+	color: #0078fa;
+}
+button {
+	background-color: #0078fa;
+	border-radius: 5px;
+	box-shadow: 0 6px 16px 0 rgba(19, 33, 83, 0.5);
+	height: 36px;
+}
+.sign-in {
+	color: #0078fa;
+}

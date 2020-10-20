@@ -21,7 +21,7 @@ export const Input = ({
 		color: ` ${error ? "#CC3A00" : "#767e8d"}`,
 	};
 	return (
-		<div className="my-10 md:my-10">
+		<div className="my-8 ">
 			<div style={formGroup} className="form-group relative shadow-sm">
 				<label
 					style={labelStyle}
